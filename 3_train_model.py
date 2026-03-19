@@ -1,5 +1,5 @@
 '''
-File: train_model.py
+File: 3_train_model.py
 Author: ABx_Lab
 Trains a Bidirectional LSTM on extracted skeleton sequences.
 '''

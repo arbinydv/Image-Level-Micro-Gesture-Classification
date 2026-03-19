@@ -1,5 +1,5 @@
 '''
-File: extract_skeletons.py
+File: 2_extract_skeletons.py
 Author: ABx_Lab
 
 Extracts 225-dimensional skeletal keypoint vectors from preprocessed
