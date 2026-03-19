@@ -1,0 +1,17 @@
+# --- Pose Extraction (Data Pipeline) ---
+mediapipe==0.10.11
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# --- Deep Learning (Model Training) ---
+# Note: Install torch separately if using an NVIDIA GPU (see below)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# --- Machine Learning Utilities ---
+scikit-learn>=1.3.0
+tqdm>=4.65.0
+
+# --- Evaluation & Visualization ---
+matplotlib>=3.7.0
+seaborn>=0.12.0
