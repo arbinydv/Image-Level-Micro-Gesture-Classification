@@ -4,11 +4,11 @@ Author: ABx_Lab
 Trains a Bidirectional LSTM on extracted skeleton sequences.
 '''
 
-import tqdm
 import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+from tqdm import tqdm
 from torch.utils.data import Dataset, DataLoader
 
 from config import (

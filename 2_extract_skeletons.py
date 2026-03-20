@@ -8,7 +8,6 @@ frames and saves them as .npy files — one per video sequence.
 '''
 
 import os
-import tqdm
 import numpy as np
 import mediapipe as mp
 from collections import defaultdict
@@ -16,6 +15,7 @@ from collections import defaultdict
 # internal imports
 from config import PROCESSED_GM_DIR, OUTPUT_DIR, IMAGE_SIZE, FRAMES_PER_SEQUENCE,EXPECTED_FEATURES, ZERO_FRAME_THRESHOLD
 from utils import get_sequence_id, extract_keypoints_from_file
+from tqdm import tqdm
 
 def process_split(split, holistic_model):
     split_input_dir  = os.path.join(PROCESSED_GM_DIR, split)
