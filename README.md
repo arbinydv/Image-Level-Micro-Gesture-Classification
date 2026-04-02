@@ -18,6 +18,14 @@ Make sure you have these installed
  source venv/bin/activate
 ```
 
+### Architecture and BiLSTML
+#### Model Architecture
+<img width="766" height="486" alt="image" src="https://github.com/user-attachments/assets/9660cd52-fbce-419e-88b7-0a95d5be181a" />
+
+#### BiLSTML internal working
+<img width="699" height="484" alt="image" src="https://github.com/user-attachments/assets/9ba739b5-ea54-4a8b-a0f7-d67f6cd48ed6" />
+
+
 #### Running the Project Pipeline
 ```angular2html
 1. pip install -r requirements.txt
